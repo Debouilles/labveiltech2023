@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://debouilles.github.io/labveiltech2023/"
 title = "Puppet"
 
 theme = "hugo-theme-puppet-master"
