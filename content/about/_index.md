@@ -1,6 +1,6 @@
 +++
 title = "À Propos"
-description = "Domaines UX / UI"
+description = "Déborah Antonietti"
 date = "12.01.2023"
 aliases = ["à propos", "contact"]
 author = "Déborah Antonietti"
@@ -11,21 +11,7 @@ Passionnée de nature et de faune depuis petite, je souhaite mettre mes compéte
 
 Mes soft-skills sont un plus pour ce domaine qui demande de l'empathie et une forte capacité d'adpatation. Voici mon ikigai :
 
-<img src="resources\_gen\images\ikigai_DéborahAntonietti.png">
+<img src="https://www.canva.com/design/DAFY9fBj-eA/tEbJk89puWF8GdI22HBWKg/watch?utm_content=DAFY9fBj-eA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
 
 
 
-
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
