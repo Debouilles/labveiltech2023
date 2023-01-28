@@ -7,14 +7,14 @@ author = "Déborah Antonietti"
 +++
 
 
-Passionnée de nature et de faune depuis petite, je souhaite mettre mes compétences à profit de causes qui me touchent et ainsi travailler pour des entreprises qui sont sensibles aux problématiques du climat et de préservation de la nature. 
-Les domaines de l'UX et de l'UI sont actuellement en plein essort et je suis convaincue de leurs bénéfices multiples pour la création d'interface en tous genres. La digitalisation des entreprises suisses n'étant pas très avancée, je suis perduadée que ce domaine va continuer d'augmenter et jouer un rôle très important dans les projets digitaux de demain. 
+Passionnée de nature et de faune depuis petite, je souhaite mettre mes compétences à profit de causes qui me touchent et ainsi travailler pour des entreprises qui sont sensibles aux problématiques du climat et de préservation de la nature. Les domaines de l'UX et l'UI m'intéressent et ils sont actuellement en plein essort. Je suis convaincue de leurs bénéfices multiples pour la création d'interface en tous genres. La digitalisation des entreprises suisses n'étant pas très avancée, je suis perduadée que ce domaine va continuer de prendre de l'ampleur et jouer un rôle très important dans les projets digitaux de demain. 
 
-Mes soft-skills, qui sont 
- sont un plus pour ce domaine
+Mes soft-skills sont un plus pour ce domaine qui demande de l'empathie et une forte capacité d'adpatation. Voici mon ikigai :
+
+<img src="resources\_gen\images\ikigai_DéborahAntonietti.png">
 
 
-Les domaines de l'UX et l'UI m'intéressent. 
+
 
 * https://github.com/yuin/goldmark
 * https://github.com/alecthomas/chroma
