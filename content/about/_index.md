@@ -11,7 +11,7 @@ Passionnée de nature et de faune depuis petite, je souhaite mettre mes compéte
 
 Mes soft-skills sont un plus pour ce domaine qui demande de l'empathie et une forte capacité d'adpatation. Voici mon ikigai :
 
-<img src="https://www.canva.com/design/DAFY9fBj-eA/tEbJk89puWF8GdI22HBWKg/watch?utm_content=DAFY9fBj-eA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+<img src="https://www.canva.com/design/DAFY9fBj-eA/tEbJk89puWF8GdI22HBWKg/view">
 
 
 
