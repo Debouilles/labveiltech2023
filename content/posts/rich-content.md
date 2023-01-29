@@ -2,7 +2,7 @@
 author = "Déborah Antonietti"
 title = "Veille Digitale"
 date = "29.01.2023"
-description = "Liste des ressources digitales"
+description = "Quelles sont les ressources que j'ai choisies et sur quels supports ?"
 subtitle = "Liste des ressources digitales"
 header_img = "./veilledigitale.jpg"
 +++
