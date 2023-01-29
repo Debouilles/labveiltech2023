@@ -11,7 +11,7 @@ Passionnée de nature et de faune depuis petite, je souhaite mettre mes compéte
 
 Mes soft-skills sont un plus pour ce domaine qui demande de l'empathie et une forte capacité d'adpatation. Voici mon ikigai :
 
-<img src="../resources/_gen/images/ikigai_DéborahAntonietti.png">
+<img src="./ikigai_DéborahAntonietti.png">
 
 
 
