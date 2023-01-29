@@ -1,5 +1,5 @@
 baseURL = "https://debouilles.github.io/labveiltech2023/"
-title = "Puppet"
+title = "Déborah Antonietti"
 
 theme = "hugo-theme-puppet-master"
 
@@ -70,9 +70,9 @@ weight = 100
 
 [params]
 author = "Déborah Antonietti"
-description = "A simple and clean theme for Hugo"
+description = "Articles LabVeilTech2023"
 keywords = "blog,developer,personal"
-img_home = "img/home-bg.jpg"
+img_home = "img/home.jpg"
 img_404 = "img/404-bg.jpg"
 
 useFaviconGenerator = true
