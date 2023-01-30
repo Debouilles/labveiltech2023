@@ -46,6 +46,8 @@ Ce blog est un blog assez complet qui parle de l’actualité sur le thème que 
 
 - Parlons Design. Une chaîne en français qui parle de conception d'interface et de design web dans sa globalité, avec aussi des contenus plus diversifié sur comment ajuster ses prix en tant que freelance par exemple.
 
+- Design Code : Chaîne de tutoriel, principalement sur l'outil de design de maquette Figma
+
 <h2>Podcasts</h2>
 
 - The Best UX and User Research Podcasts to listen to in 2022 (Playlist publique). Cette playlist de podcasts regroupe les meilleurs podcasts qui sont sortis en 2022 sur le domaine que j'ai choisi. Il y a régulièrement des podcasts contenant des interviews des acteurs du domaine et c'est un bon moyen d'avoir accès à beaucoup d'informations lors de mes déplacements, sans pour autant avoir des thèmes très précis.

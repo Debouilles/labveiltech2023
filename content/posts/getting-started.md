@@ -1,93 +1,23 @@
-+++
-title = "Puppet - Getting Started"
-date = 2022-08-09T15:38:30+08:00
-header_img = ""
-toc = true
-tags = ["documentation", "guide"]
-categories = []
-series = ["Themes Guide"]
-+++
+---
+author: Déborah Antonietti
+title: Tutoriel Figma
+date: 2023-01-30
+description: Créer un écran d'application ultra moderne 
 
-Puppet is a responsive, simple and clean [Hugo](https://gohugo.io/) theme based on the [Huxblog Jekyll theme](https://github.com/Huxpro/huxpro.github.io). 
-
-<!--more-->
-
-## Install Hugo
-
-Make sure you have installed the latest version of [Hugo-extented](https://gohugo.io/getting-started/installing/).
-
-## Create a New Site
-
-```
-hugo new site mysite
-```
-
-## Add the Theme
-
-You can download and unpack the theme manually from Github or use git to clone the theme into your site's `themes` directory.
-
-```bash
-cd mysite
-git init
-git clone https://github.com/roninro/hugo-theme-puppet.git themes/puppet
-```
-
-Or you can add the theme as a submodule.
-
-```bash
-cd mysite
-git init
-git submodule add https://github.com/roninro/hugo-theme-puppet.git themes/puppet
-git submodule update --init --recursive
-```
-
-That’s all, Puppet is ready to be used.
+---
+<h1> <i class="fa-brands fa-figma"> Figma</i></h1>
 
 
-## Add Config Files
+Durant les cours que j'ai suivi à la heig-vd j'ai eu l'occasion de voir en surface le logiciel leader du marché en conception d'interface : Figma qui a récemment été racheté par son concurrent Adobe. Je n'ai pas encore eu le temps de creuser les différentes fonctionnalités de cet outil très complet, en particulier les différentes options d'animation. J'ai décidé de suivre ce tutoriel ci-dessous pour apprendre à faire l'effet "parallax" sur une image car c'est quelque chose que je ne sais absolument pas faire.
 
-For getting started, you can copy the `config.toml` file from the theme's exampleSite directory to the root directory of your site.
 
-```bash
-cp themes/puppet/exampleSite/config.toml .
-```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XmNGjHcKhyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in- picture" allowfullscreen></iframe>
 
-> Note: You may need to delete the `themesDir` line in the config file.
 
-## Add Some Content
+Le principe de l'effet réside dans le fait que les différentes profondeurs de l'image n'avancent pas à la même vitesse. Ainsi le paysage qui se trouve en fond défile plus lentement que le paysage près de nous. C'est effet est très à la mode et on le retrouve souvent sur des sites web. Cela permet de dynamiser et de raconter une histoire par exemple. 
 
-Create a new post with the following command.
+Pour réaliser mon propre effet parallax j'ai donc commencé par préparer mes différentes images (montagne, nuages et personnage), enlever le fond du personnage puis je l'ai ajouté à Figma et j'ai fait les différents réglages de l'animation et voici le résultat de mon effet parallax :
 
-```bash
-hugo new posts/my-first-post.md
-```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2vnr99PR5zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Edit the content of the post.
-
-```markdown
-+++
-title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date }}
-description = ""
-draft = true
-subtitle = ""
-header_img = ""
-toc = true
-tags = []
-categories = []
-series = []
-comment = true
-+++
-
-Your content here...
-```
-
-Some front-matter used for SEO, others used for displaying contents, configuration, etc.
-
-## Run example site
-
-From the root of themes/puppet/exampleSite:
-
-```bash
-hugo server --themesDir ../..
-```
+Suivre ce tutoriel m'a appris comment fonctionne un effet parallax mais aussi comment le faire à l'aide de Figma. Chronophage mais assez sympathique il permet de moderniser et ajouter un peu de dynamisme à l'interface. Je pense réutiliser cet effet dans mes prochaines conceptions d'interface.

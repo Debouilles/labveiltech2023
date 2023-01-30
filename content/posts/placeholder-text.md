@@ -1,7 +1,7 @@
 +++
 author = "Déborah Antonietti"
 title = "UX et éco-conception : joindre l’efficace au durable"
-date = "2023-01-30"
+date = "2023-01-29"
 description = "Comment créer des interfaces qui soient durables et efficaces ?"
 
 +++
