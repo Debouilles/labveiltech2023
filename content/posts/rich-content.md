@@ -1,10 +1,10 @@
 +++
 author = "Déborah Antonietti"
 title = "Veille Digitale"
-date = "29.01.2023"
+date = "2023-01-29"
 description = "Quelles sont les ressources que j'ai choisies et sur quels supports ?"
 subtitle = "Liste des ressources digitales"
-header_img = "./veilledigitale.jpg"
+header_img = "https://static.wixstatic.com/media/0fc830_f3579ee426e84e5d8ca97e9223589b41~mv2.jpg/v1/fill/w_566,h_447,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0fc830_f3579ee426e84e5d8ca97e9223589b41~mv2.jpg"
 +++
 
 <h2>Ma veille digitale</h2>
@@ -37,6 +37,7 @@ Instagram est la plateforme que j’utilisais déjà avant pour avoir accès à 
 Ce blog est un blog assez complet qui parle de l’actualité sur le thème que j’ai choisi mais aussi sur le SEO et le marketing. Des ressources à télécharger ainsi que des conseils pour m’améliorer. Les articles sont courts et donne un bon début de pensée mais ils sont insuffisants à eux seuls.
 - https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux : cours gratuit sur l’UX, je n’ai pas encore eu le temps de le commencer mais je pense que cela va m’apporter quelques connaissances ou du moins les renforcer.
 - https://blog-ux.com : Ce blog regroupe un grand nombre d’articles qui parle de design thinking, de l’UX/UI ainsi que d'ergonomie. Ce blog donne aussi des idées de où trouver de l'information de qualité autour de l'UX et de l'UI.
+- https://jai-un-pote-dans-la.com/ Articles qui offrent des conseils, des astuces et des ressources pour aider à mieux comprendre les différents aspects de la communication et du marketing, y compris les stratégies de branding mais aussi parfois sur les domaines de l’UX et de l’UI.
 
 <h2>YouTube</h2>
 

@@ -1,45 +1,23 @@
 +++
-author = "Hugo Authors"
-title = "Placeholder Text"
-date = "2019-03-09"
-description = "Lorem Ipsum Dolor Si Amet"
-tags = [
-    "markdown",
-    "text",
-]
+author = "Déborah Antonietti"
+title = "UX et éco-conception : joindre l’efficace au durable"
+date = "2023-01-30"
+description = "Comment créer des interfaces qui soient durables et efficaces ?"
+
 +++
+<img src="https://jai-un-pote-dans-la.com/wp-content/uploads/2021/01/logo-jupdlc-2021-white-dark-blue-300x161.png">
 
-Lorem est tota propiore conpellat pectoribus de pectora summo. <!--more-->Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
+Le site web : https://jai-un-pote-dans-la.com/ est un site qui se consacre à la communication et à la stratégie de marketing. Il offre des conseils, des astuces et des ressources pour aider à mieux comprendre les différents aspects de la communication et du marketing, y compris les stratégies de branding mais aussi parfois sur les domaines de l'UX et de l'UI.
 
-1. Exierant elisi ambit vivere dedere
-2. Duce pollice
-3. Eris modo
-4. Spargitque ferrea quos palude
+L'article "UX et éco-conception : joindre l'efficacité au durable" aborde la nécessité de combiner les aspects de l'expérience utilisateur et de l'éco-conception dans le développement de produits. Il défend l'idée que la durabilité peut être intégrée de manière cohérente dans le processus de design pour créer des produits plus performants et plus respectueux de l'environnement. Il va même plus loin expliquant les bénéfices de faire participer l'utilisateur final dans ce processus d'économies de données. Selon le professeur François Guibilato, UX designer et enseignant à Excelia Digital School, une école française : 
 
-Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.
+> « l’UX design est bien au service de l’éco-conception, puisqu’il aide à trouver où placer le curseur. »
 
-1. Comas hunc haec pietate fetum procerum dixit
-2. Post torum vates letum Tiresia
-3. Flumen querellas
-4. Arcanaque montibus omnes
-5. Quidem et
+Le contenu de l'article explique comment l'éco-conception peut améliorer l'expérience utilisateur en permettant à l'utilisateur de se sentir impliqué dans les efforts pour préserver l'environnement. De plus, en utilisant des matériaux écologiques et durables dans la production, la qualité du produit peut être améliorée, ce qui peut renforcer la satisfaction et la fidélité de la clientèle.
 
-# Vagus elidunt
+Cet article donne également des exemples concrets pour pouvoir créer de façon plus écologique ainsi qu'une ressource web afin de mesurer l'impact qu'a notre interface. Bien que certains conseils comme le choix de l'hébergeur ou la qualité des images sont des conseils que je connaissais déjà, l'article m'a tout de même donné des pistes intérressantes que je pourrai creuser lors des conceptions que je penserai dans ma vie professionnelle.
 
-<svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496"><g fill="none"><path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515"></path><path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z"></path><path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372"></path><ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25"></ellipse><ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25"></ellipse></g></svg>
+À l'heure où la thématique de lécologie est super importante et prend de plus en plus d'ampleur, le digital est pointé du doigt et surtout le streaming. Je pense qu'il est très important de penser à des solutions pour réduire cette consommation de données et ainsi concevoir des interfaces qui soient durables. Je pense que cet article est interressant puisqu'il montre comment la durabilité peut être intégrée de manière efficace dans le développement d'interface, tout en prenant en compte les aspects techniques et commerciaux qui sont la base du domaine que j'ai choisi. Cela peut aider les ingénieurs d'aujourd'hui à créer des produits respectueux de l'environnement tout en offrant une expérience utilisateur optimale et en améliorant la qualité du produit mais il permet aussi de sensibiliser à cette thématique qui n'est pas assez prise en compte dans ce domaine.
 
-[The Van de Graaf Canon](https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon)
+Lien de l'article : https://jai-un-pote-dans-la.com/ux-et-eco-conception-joindre-lefficace-au-durable/
 
-## Mane refeci capiebant unda mulcebat
-
-Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. **Faces illo pepulere** tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.
-
-Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.
-
-Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel **mitis temploque** vocatus, inque alis, *oculos nomen* non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides **parte**.
-
-{{< css.inline >}}
-<style>
-.canon { background: white; width: 100%; height: auto; }
-</style>
-{{< /css.inline >}}
