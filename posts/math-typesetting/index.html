@@ -3,19 +3,19 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="ie=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Math Typesetting | Puppet</title>
+<title>Le design UX pour les enfants | Déborah Antonietti</title>
 <meta name=author content="Déborah Antonietti">
-<meta name=description content="A brief guide to setup KaTeX">
+<meta name=description content="Comment travailler avec les enfants ?">
 <meta name=keywords content="blog,developer,personal">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Math Typesetting">
-<meta name=twitter:description content="A brief guide to setup KaTeX">
-<meta property="og:title" content="Math Typesetting">
-<meta property="og:description" content="A brief guide to setup KaTeX">
+<meta name=twitter:title content="Le design UX pour les enfants">
+<meta name=twitter:description content="Comment travailler avec les enfants ?">
+<meta property="og:title" content="Le design UX pour les enfants">
+<meta property="og:description" content="Comment travailler avec les enfants ?">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://debouilles.github.io/labveiltech2023/posts/math-typesetting/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2019-03-08T00:00:00+00:00">
-<meta property="article:modified_time" content="2019-03-08T00:00:00+00:00">
+<meta property="article:published_time" content="2023-01-30T00:00:00+00:00">
+<meta property="article:modified_time" content="2023-01-30T00:00:00+00:00">
 <link rel=stylesheet href=/labveiltech2023/css/bootstrap.min.css crossorigin=anonymous>
 <link href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css rel=stylesheet type=text/css>
 <link rel=stylesheet href=/labveiltech2023/sass/main.css>
@@ -27,7 +27,7 @@
 <link rel=manifest href=/labveiltech2023/site.webmanifest>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
 <div class=container-fluid>
 <div class="navbar-header page-scroll">
 <button type=button class=navbar-toggle>
@@ -36,16 +36,13 @@
 <span class=icon-bar></span>
 <span class=icon-bar></span>
 </button>
-<a class=navbar-brand href=https://debouilles.github.io/labveiltech2023/>Puppet</a>
+<a class=navbar-brand href=https://debouilles.github.io/labveiltech2023/>Déborah Antonietti</a>
 </div>
 <div id=huxblog_navbar>
 <div class=navbar-collapse>
 <ul class="nav navbar-nav navbar-right">
 <li><a href=/labveiltech2023/ title=Home>Home</a></li>
-<li><a href=/labveiltech2023/archive/ title=Archive>Archive</a></li>
-<li><a href=/labveiltech2023/series/themes-guide/ title=Guide>Guide</a></li>
 <li><a href=/labveiltech2023/about/ title=About>About</a></li>
-<li><a href=https://github.com/roninro/hugo-theme-puppet/ title=Github>Github</a></li>
 <li class=search-icon>
 <a href=javascript:void(0)>
 <i class="fa fa-search"></i>
@@ -74,8 +71,8 @@
 </div>
 </div>
 </div>
-<style type=text/css>header.intro-header{position:relative;background-image:url('')}</style>
-<header class="intro-header style-text">
+<style type=text/css>header.intro-header{position:relative;background-image:url(https://www.francetvinfo.fr/pictures/29hj_BXQ8xJLCB99TfyVu9wdiuU/752x423/2022/08/05/phpscai4B.jpg)}</style>
+<header class=intro-header>
 <div class=header-mask></div>
 <div class=container>
 <div class=row>
@@ -83,11 +80,11 @@
 <div class=post-heading>
 <div class=tags>
 </div>
-<h1>Math Typesetting</h1>
+<h1>Le design UX pour les enfants</h1>
 <h2 class=subheading></h2>
 <span class=meta>
-Posted by Hugo Authors
-on Fri, Mar 8, 2019
+Posted by Déborah Antonietti
+on Mon, Jan 30, 2023
 </span>
 </div>
 </div>
@@ -100,50 +97,25 @@ on Fri, Mar 8, 2019
 <div class="col-lg-8 col-lg-offset-2
 col-md-10 col-md-offset-1
 post-container">
-<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
-<p>In this example we will be using <a href=https://katex.org/ target=_blank>KaTeX</a></p>
-<ul>
-<li>Create a partial under <code>/layouts/partials/math.html</code></li>
-<li>Within this partial reference the <a href=https://katex.org/docs/autorender.html target=_blank>Auto-render Extension</a> or host these scripts locally.</li>
-<li>Include the partial in your templates like so:</li>
-</ul>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1</span><span style=color:#ff79c6>{{</span> <span style=color:#ff79c6>if</span> or .Params.math .Site.Params.math <span style=color:#ff79c6>}}</span>
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2</span><span style=color:#ff79c6>{{</span> partial <span style=color:#f1fa8c>&#34;math.html&#34;</span> . <span style=color:#ff79c6>}}</span>
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3</span><span style=color:#ff79c6>{{</span> end <span style=color:#ff79c6>}}</span>
-</code></pre></div><ul>
-<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
-<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
-</ul>
-<p><strong>Note:</strong> Use the online reference of <a href=https://katex.org/docs/supported.html target=_blank>Supported TeX Functions</a></p>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css integrity=sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq crossorigin=anonymous>
-<script defer src=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js integrity=sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz crossorigin=anonymous></script>
-<script defer src=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js integrity=sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI crossorigin=anonymous onload=renderMathInElement(document.body)></script>
-<h3 id=examples>Examples<a class=anchorjs-link href=#examples></a></h3>
-<p>
-Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
-</p>
-<p>Block math:
-$$
-\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$</p>
+<p>Dans le cadre de mon travail de Bachelor, je serai amenée à devoir travailler avec des enfants puisque j&rsquo;ai choisi comme thématique de digitaliser le magazine pour enfant de Pro Natura.
+<br>
+Il me faudra alors comprendre comment les enfants fonctionnent et comment ils naviguent au travers d&rsquo;interfaces digitales et il fuadra aussi que je construise un concept fort autour de ce magazine qui aura pour but d&rsquo;apprendre aux enfants mais aussi de les sensibiliser aux problématiques actuelles concernant la biodiversité en Suisse.
+C&rsquo;est pourquoi il me paraît judicieux de commencer à rassembler quelques ressources clés concernant cette thématique, surtout que pendant les cours nous n&rsquo;avons pas eu l&rsquo;occasion de travailler avec des enfants et nous n&rsquo;avons pas eu de théorie sur ce thème.</p>
+<p>L&rsquo;article nous expose le fait que le monde numérique n&rsquo;est pas toujours adapté à leurs capacités et à leurs besoins en tant qu&rsquo;utilisateurs. Il est donc très important de comprendre les enfants afin de leur créer une meilleure expérience utilisateur. La conception d&rsquo;un site web pour les enfants doit suivre les mêmes contraintes que pour les jouets et prendre en compte l&rsquo;âge de l&rsquo;enfant. Les objectifs d&rsquo;un site pour enfants peuvent être classés en trois catégories: ludique, éducatif et créatif. Ainsi, pour les enfants de 2 à 3 ans, il est important de miser sur la simplicité d&rsquo;interaction avec des formes simples, des couleurs vives et des animations attirantes, sans s&rsquo;intéresser aux contenus en profondeur puisqu&rsquo;ils ne sont pas encore capable de lire, d&rsquo;assimiler et de comprendre des informations qui peuvent mises à leur disposition sur un support digital. Quant aux enfants plus âgés (de 7 à 11 ans), il est important de fournir des aides contextuelles, des objectifs clairs avec des récompenses et de laisser place à leur créativité.</p>
+<p>L&rsquo;article met aussi en lumière le fait que même si les enfants ne disposent pas de la même connaissance qu&rsquo;un adulte, ils sont en période de développement et leur cerveau est capable de recevoir et de stocker de plus grandes quantités d&rsquo;informations. Les enfants sont en mesure de s&rsquo;adapter et de créer leur propre utilisation en empruntant les codes actuels de navigation et en reproduisant des gestes simples qu&rsquo;ils ont vus chez leurs parents. Un enfant peut être bien plus volatile comparé aux utilisateurs adultes et ainsi abandonner rapidement un site ou un jeu en cas de malentendu ou d&rsquo;obstacle. Il peut perdre facilement courage et déteste lorsque les choses sont compliquées. Enfin ce qui important de le parcours utilisateur de l&rsquo;enfant c&rsquo;est qu&rsquo;il s&rsquo;amuse. Ainsi une interface &ldquo;gamifiée&rdquo; aura plus d&rsquo;intérêt aux yeux de l&rsquo;enfant que pourra permettre que celui-ci ne s&rsquo;ennuye pas. De plus il faut penser lors de la conception que l&rsquo;enfant explore sans penser aux conséquences de ses actions, il faut veiller à toujours leur laisser la possibilité de revenir en arrière facilement. Tout comme les adultes, les enfants aiment que les interfaces soient de qualité et ils perçoivent quelque chose de cassé (liens, erreurs 404 par exemple) comme quelque chose de cassé dans la vraie vie, tandis qu&rsquo;une animation qui leur plaît peut être visionnée sans arrêt sans lassitude. Il est donc important que jouer avec ces codes et de créer des concepts forts avec beaucoup de détails et de couleurs tout en veillant à la qualité globale.</p>
+<p>L&rsquo;article rappelle également à quel point il est important que l&rsquo;enfant ne passe pas trop de temps sur les écrans et il nous donne l&rsquo;infographie suivante qui rappelle les éléments préconisés par âge :</p>
+<img src=https://newflux.fr/wp-content/uploads/2015/12/infographie.jpg>
+<p>Il est donc très important dans le cadre de mon TB de concevoir une interface qui permette aux enfants de faire des activités en extérieur et de lever le nez des écrans afin qu&rsquo;ils se développent dans de bonnes conditions. Cet article me donne quelques pistes pour mon TB mais ce n&rsquo;est qu&rsquo;un début.</p>
 <hr style=visibility:hidden>
 <ul class=pager>
 <li class=previous>
-<a href=/labveiltech2023/posts/emoji-support/ data-toggle=tooltip data-placement=top title="Emoji Support">
+<a href=/labveiltech2023/posts/placeholder-text/ data-toggle=tooltip data-placement=top title="UX et éco-conception : joindre l’efficace au durable">
 Previous<br>
-<span>Emoji Support</span>
-</a>
-</li>
-<li class=next>
-<a href=/labveiltech2023/posts/placeholder-text/ data-toggle=tooltip data-placement=top title="Placeholder Text">
-Next<br>
-<span>Placeholder Text</span>
+<span>UX et éco-conception : joindre l’efficace au durable</span>
 </a>
 </li>
 </ul>
 <hr style=visibility:hidden>
-<div class=giscus id=comments></div>
-<script src=https://giscus.app/client.js data-repo=roninro/hugo-theme-puppet data-repo-id=R_kgDOHuvyhw data-category=General data-category-id=DIC_kwDOHuvyh84CQjDo data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=light_tritanopia data-lang=en crossorigin=anonymous async></script>
 </div>
 <div class="col-lg-8 col-lg-offset-2
 col-md-10 col-md-offset-1
@@ -158,15 +130,8 @@ sidebar-container">
 <a href=/labveiltech2023/tags/guide/>guide</a>
 <a href=/labveiltech2023/tags/html/>html</a>
 <a href=/labveiltech2023/tags/markdown/>markdown</a>
-<a href=/labveiltech2023/tags/text/>text</a>
 </div>
 </section>
-<hr>
-<h5>FRIENDS</h5>
-<ul class=list-inline>
-<li><a href=https://gohugo.io target=_blank>John Doe</a></li>
-<li><a href=https://gohugo.io target=_blank>John Doe</a></li>
-</ul>
 </div>
 </div>
 </div>
@@ -175,81 +140,9 @@ sidebar-container">
 <div class=container>
 <div class=row>
 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-<ul class="list-inline text-center">
-<li>
-<a href=https://github.com/johndoe target=_blank>
-<span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fab fa-github fa-stack-1x fa-inverse"></i>
-</span>
-</a>
-</li>
-<li>
-<a href=https://linkedin.com/in/johndoe target=_blank>
-<span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-</span>
-</a>
-</li>
-<li>
-<a href=https://twitter.com/johndoe target=_blank>
-<span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-</span>
-</a>
-</li>
-<li>
-<a href=https://facebook.com/johndoe target=_blank>
-<span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
-</span>
-</a>
-</li>
-<li>
-<a href=https://gitlab.com/johndoe target=_blank>
-<span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
-</span>
-</a>
-</li>
-<li>
-<a href=https://weibo.com/johndoe target=_blank>
-<span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fab fa-weibo fa-stack-1x fa-inverse"></i>
-</span>
-</a>
-</li>
-<li>
-<a href=https://www.zhihu.com/people/johndoe target=_blank>
-<span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fab fa-stack-1x fa-inverse">知</i>
-</span>
-</a>
-</li>
-<li>
-<a href=https://mastodon.social/johndoe target=_blank>
-<span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
-</span>
-</a>
-</li>
-<li>
-<a href=/labveiltech2023/index.xml target=_blank>
-<span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-</span>
-</a>
-</li></ul>
+<ul class="list-inline text-center"></ul>
 <p class="copyright text-muted">
-Copyright &copy; Puppet 2023
+Copyright &copy; Déborah Antonietti 2023
 <br>
 Powered by <a href=https://gohugo.io>Hugo</a>
 </p>
