@@ -46,7 +46,7 @@ Ce blog est un blog assez complet qui parle de l’actualité sur le thème que 
 
 - Parlons Design. Une chaîne en français qui parle de conception d'interface et de design web dans sa globalité, avec aussi des contenus plus diversifié sur comment ajuster ses prix en tant que freelance par exemple.
 
-- Design Code : Chaîne de tutoriel, principalement sur l'outil de design de maquette Figma
+- Design Code : Chaîne de tutoriels sur des outils digitaux connus.
 
 <h2>Podcasts</h2>
 

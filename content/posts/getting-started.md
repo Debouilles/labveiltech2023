@@ -2,7 +2,7 @@
 author: Déborah Antonietti
 title: Tutoriel Figma
 date: 2023-01-30
-description: Créer un écran d'application ultra moderne 
+description: Créer un effet de parallax dans une image
 
 ---
 <h1> <i class="fa-brands fa-figma"> Figma</i></h1>
