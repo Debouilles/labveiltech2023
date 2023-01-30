@@ -1,149 +1,35 @@
-+++
-author = "Hugo Authors"
-title = "Markdown Syntax Guide"
-date = "2020-03-11"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
-tags = [
-    "markdown",
-    "css",
-    "html",
-]
-categories = [
-    "themes",
-    "syntax",
-]
-series = ["Themes Guide"]
-aliases = ["migrate-from-jekyll"]
-toc = true
-+++
+---
+author: Déborah Antonietti
+title: L’importance grandissante de l’UX design dans les projets web
+date: 2023-01-30
+description: Quel est l'avenir de l'UX, est-ce une bonne idée de se former dans ce domaine ?
+header_img : https://f.hellowork.com/blogdumoderateur/2020/02/UX-1200x799.jpg
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-<!--more-->
+---
+Je me suis demandée qu'est-ce que l'UX finalement ? Est-ce que ce terme évolue ? En quoi est-ce important et est-ce que son importance va continuer de croître ?
+C'est pourquoi j'ai choisi c'est article, interview d'Olivier Sauvage, fondateur et CEO de Wexperience qui s'intéresse à l'importance de l'UX  dans les projets web. Il met en avant la nécessité pour les entreprises de se concentrer sur l'expérience des utilisateurs pour garantir le succès de leur site web. 
 
-## Headings
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+<img src="https://wexperience.fr/wp-content/uploads/2020/04/Olivier-Sauvage.png">
 
-## Paragraph
+**Olivier Sauvage, fondateur et CEO de Wexperience**
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+Olivier Sauvage explique que donner une réelle définition du mot UX est devenu très compliqué. En effet, selon lui l'e-commerce et l'UX se confonde avec l'expérience client globale. Par exemple la création d'interfaces digitales c'est de l'ergonomie. Un objet connecté ? C'est à la fois de l'ergonomie mais aussi de l'expérience. On commence même à parler d'UX pour des domaines qui ne sont pas connecté et digital. L'UX est donc un concept global et est de plus en plus variée. 
 
-## Blockquotes
+>Il n'y a plus qu'une seule UX, il y a des UX. [...] Le plus gros changement c’est le fait que l’UX a entraîné une nouvelle manière de penser ce qu’on appelle « le produit ». Le produit étant l’objet à travailler et à partir duquel vous allez créer une expérience. Avant (disons il y a 20 ans), on pensait d’abord le produit et on se disait que les utilisateurs allaient s’adapter. Maintenant, en 2020, on pense d’abord besoin utilisateur et on essaie de lui adapter le produit. C’est un changement complet de paradigme dans la façon de concevoir les choses.
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+On peut donc voir qu'avec ce changement de paradigme c'est l'utilisateur final qui prend une part beaucoup plus importante dans la conception du produit, il est même devenu le centre des réflexions. Aujourd'hui on réfléchit d'abord à comment fonctionne l'utilisateur et on s'adapte à lui.
 
-#### Blockquote without attribution
+Dans le futur les méthodes de l'UX ne devraient pas fondalementalement changer, ce qui compte en UX c'est l'observation de l'humain. En revanche il pourrait y avoir de nouvelles façon d'observer et de nouveaux moyens digitaux pour y parvenir. Que ce soit la voix comme moyen d'entrée dans une interface ou les IA qui vont probablement forcer à concevoir pour l'indivu au lieu de la masse ou encore comment repenser le multicanal et proposer à l'utilisateur une expérience complète du téléphone mobile aux magasins.
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
+L'expert souligne également l'importance de la qualité de l'UX pour le référencement naturel. Les moteurs de recherche prennent en compte la qualité de l'expérience utilisateur pour classer les sites web dans leurs résultats de recherche. Un site web avec une bonne UX aura donc plus de chances d'être bien classé et de générer plus de trafic organique.
 
-#### Blockquote with attribution
+Enfin, il est important de tester régulièrement l'UX pour garantir la qualité de l'expérience utilisateur. Les tests peuvent permettre de découvrir les problèmes et les défauts du site web, ce qui peut aider les entreprises à améliorer leur UX en conséquence.
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
+Normalement dans les années à venir l'UX deviendra un des rouages essentiels  pour la création de valeur des projets digitaux des entreprises. Tout un corps de spécialistes n'existaient pas il a 5 - 10 ans, que ce soit le UX researcher, UI Designer, UX writer, etc... 
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+>[...] Je crois que les UX designers prendront de plus en plus d’importance dans les décisions stratégiques des entreprises.
 
-## Tables
-
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
-
-   Name | Age
---------|------
-    Bob | 27
-  Alice | 23
-
-#### Inline Markdown within tables
-
-| Italics   | Bold     | Code   |
-| --------  | -------- | ------ |
-| *italics* | **bold** | `code` |
-
-## Code Blocks
-
-#### Code block with backticks
-
-```html
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-```
-
-#### Code block indented with four spaces
-
-    <!doctype html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
-
-#### Code block with Hugo's internal highlight shortcode
-{{< highlight html >}}
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-{{< /highlight >}}
-
-## List Types
-
-#### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-#### Unordered List
-
-* List item
-* Another item
-* And another item
-
-#### Nested list
-
-* Fruit
-  * Apple
-  * Orange
-  * Banana
-* Dairy
-  * Milk
-  * Cheese
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+En conclusion, l'UX est un élément clé pour le succès des projets web. Les entreprises doivent se concentrer sur la qualité de l'expérience utilisateur pour garantir le succès de leur site web, en termes de trafic, de conversion et de satisfaction des utilisateurs. Nous ne pouvons prédire l'avenir mais il est à peu près certain que les métiers autour de l'UX conteniueront de prendre de l'ampleur ces prochaines années et seront aux coeur des décisions concernant les utilisateurs et la conception de produits qui leur sont destinés.
