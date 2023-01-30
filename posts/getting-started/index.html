@@ -3,19 +3,19 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="ie=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Puppet - Getting Started | Déborah Antonietti</title>
+<title>Tutoriel Figma | Déborah Antonietti</title>
 <meta name=author content="Déborah Antonietti">
-<meta name=description content="Puppet is a responsive, simple and clean Hugo theme based on the Huxblog Jekyll theme.">
+<meta name=description content="Créer un écran d'application ultra moderne">
 <meta name=keywords content="blog,developer,personal">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Puppet - Getting Started">
-<meta name=twitter:description content="Puppet is a responsive, simple and clean Hugo theme based on the Huxblog Jekyll theme.">
-<meta property="og:title" content="Puppet - Getting Started">
-<meta property="og:description" content="Puppet is a responsive, simple and clean Hugo theme based on the Huxblog Jekyll theme.">
+<meta name=twitter:title content="Tutoriel Figma">
+<meta name=twitter:description content="Créer un écran d'application ultra moderne">
+<meta property="og:title" content="Tutoriel Figma">
+<meta property="og:description" content="Créer un écran d'application ultra moderne">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://debouilles.github.io/labveiltech2023/posts/getting-started/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2022-08-09T15:38:30+08:00">
-<meta property="article:modified_time" content="2022-08-09T15:38:30+08:00">
+<meta property="article:published_time" content="2023-01-30T00:00:00+00:00">
+<meta property="article:modified_time" content="2023-01-30T00:00:00+00:00">
 <link rel=stylesheet href=/labveiltech2023/css/bootstrap.min.css crossorigin=anonymous>
 <link href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css rel=stylesheet type=text/css>
 <link rel=stylesheet href=/labveiltech2023/sass/main.css>
@@ -79,14 +79,12 @@
 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 <div class=post-heading>
 <div class=tags>
-<a class=tag href=/labveiltech2023/tags/documentation/ title=documentation>documentation</a>
-<a class=tag href=/labveiltech2023/tags/guide/ title=guide>guide</a>
 </div>
-<h1>Puppet - Getting Started</h1>
+<h1>Tutoriel Figma</h1>
 <h2 class=subheading></h2>
 <span class=meta>
 Posted by Déborah Antonietti
-on Tue, Aug 9, 2022
+on Mon, Jan 30, 2023
 </span>
 </div>
 </div>
@@ -99,74 +97,29 @@ on Tue, Aug 9, 2022
 <div class="col-lg-8 col-lg-offset-2
 col-md-10 col-md-offset-1
 post-container">
-<p>Puppet is a responsive, simple and clean <a href=https://gohugo.io/ target=_blank>Hugo</a> theme based on the <a href=https://github.com/Huxpro/huxpro.github.io target=_blank>Huxblog Jekyll theme</a>.</p>
-<h2 id=install-hugo>Install Hugo<a class=anchorjs-link href=#install-hugo></a></h2><p>Make sure you have installed the latest version of <a href=https://gohugo.io/getting-started/installing/ target=_blank>Hugo-extented</a>.</p>
-<h2 id=create-a-new-site>Create a New Site<a class=anchorjs-link href=#create-a-new-site></a></h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1</span>hugo new site mysite
-</code></pre></div><h2 id=add-the-theme>Add the Theme<a class=anchorjs-link href=#add-the-theme></a></h2><p>You can download and unpack the theme manually from Github or use git to clone the theme into your site&rsquo;s <code>themes</code> directory.</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1</span><span style=color:#8be9fd;font-style:italic>cd</span> mysite
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2</span>git init
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3</span>git clone https://github.com/roninro/hugo-theme-puppet.git themes/puppet
-</code></pre></div><p>Or you can add the theme as a submodule.</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1</span><span style=color:#8be9fd;font-style:italic>cd</span> mysite
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2</span>git init
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3</span>git submodule add https://github.com/roninro/hugo-theme-puppet.git themes/puppet
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4</span>git submodule update --init --recursive
-</code></pre></div><p>That’s all, Puppet is ready to be used.</p>
-<h2 id=add-config-files>Add Config Files<a class=anchorjs-link href=#add-config-files></a></h2><p>For getting started, you can copy the <code>config.toml</code> file from the theme&rsquo;s exampleSite directory to the root directory of your site.</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1</span>cp themes/puppet/exampleSite/config.toml .
-</code></pre></div><blockquote>
-<p>Note: You may need to delete the <code>themesDir</code> line in the config file.</p>
-</blockquote>
-<h2 id=add-some-content>Add Some Content<a class=anchorjs-link href=#add-some-content></a></h2><p>Create a new post with the following command.</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1</span>hugo new posts/my-first-post.md
-</code></pre></div><p>Edit the content of the post.</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1</span>+++
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2</span>title = &#34;{{ replace .Name &#34;-&#34; &#34; &#34; | title }}&#34;
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3</span>date = {{ .Date }}
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4</span>description = &#34;&#34;
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5</span>draft = true
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6</span>subtitle = &#34;&#34;
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7</span>header_img = &#34;&#34;
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8</span>toc = true
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9</span>tags = []
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10</span>categories = []
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11</span>series = []
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12</span>comment = true
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13</span>+++
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14</span>
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15</span>Your content here...
-</code></pre></div><p>Some front-matter used for SEO, others used for displaying contents, configuration, etc.</p>
-<h2 id=run-example-site>Run example site<a class=anchorjs-link href=#run-example-site></a></h2><p>From the root of themes/puppet/exampleSite:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1</span>hugo server --themesDir ../..
-</code></pre></div>
+<h1> <i class="fa-brands fa-figma"> Figma</i></h1>
+<p>Durant les cours que j&rsquo;ai suivi à la heig-vd j&rsquo;ai eu l&rsquo;occasion de voir en surface le logiciel leader du marché en conception d&rsquo;interface : Figma qui a récemment été racheté par son concurrent Adobe. Je n&rsquo;ai pas encore eu le temps de creuser les différentes fonctionnalités de cet outil très complet, en particulier les différentes options d&rsquo;animation. J&rsquo;ai décidé de suivre ce tutoriel ci-dessous pour apprendre à faire l&rsquo;effet &ldquo;parallax&rdquo; sur une image car c&rsquo;est quelque chose que je ne sais absolument pas faire.</p>
+<iframe width=560 height=315 src=https://www.youtube.com/embed/XmNGjHcKhyY frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in- picture" allowfullscreen></iframe>
+<p>Le principe de l&rsquo;effet réside dans le fait que les différentes profondeurs de l&rsquo;image n&rsquo;avancent pas à la même vitesse. Ainsi le paysage qui se trouve en fond défile plus lentement que le paysage près de nous. C&rsquo;est effet est très à la mode et on le retrouve souvent sur des sites web. Cela permet de dynamiser et de raconter une histoire par exemple.</p>
+<p>Pour réaliser mon propre effet parallax j&rsquo;ai donc commencé par préparer mes différentes images (montagne, nuages et personnage), enlever le fond du personnage puis je l&rsquo;ai ajouté à Figma et j&rsquo;ai fait les différents réglages de l&rsquo;animation et voici le résultat de mon effet parallax :</p>
+<iframe width=560 height=315 src=https://www.youtube.com/embed/2vnr99PR5zE frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Suivre ce tutoriel m&rsquo;a appris comment fonctionne un effet parallax mais aussi comment le faire à l&rsquo;aide de Figma. Chronophage mais assez sympathique il permet de moderniser et ajouter un peu de dynamisme à l&rsquo;interface. Je pense réutiliser cet effet dans mes prochaines conceptions d&rsquo;interface.</p>
 <hr style=visibility:hidden>
 <ul class=pager>
 <li class=previous>
-<a href=/labveiltech2023/posts/emoji-support/ data-toggle=tooltip data-placement=top title="Emoji Support">
+<a href=/labveiltech2023/posts/placeholder-text/ data-toggle=tooltip data-placement=top title="UX et éco-conception : joindre l’efficace au durable">
 Previous<br>
-<span>Emoji Support</span>
+<span>UX et éco-conception : joindre l’efficace au durable</span>
 </a>
 </li>
 <li class=next>
-<a href=/labveiltech2023/posts/rich-content/ data-toggle=tooltip data-placement=top title="Veille Digitale">
+<a href=/labveiltech2023/posts/markdown-syntax/ data-toggle=tooltip data-placement=top title="L’importance grandissante de l’UX design dans les projets web">
 Next<br>
-<span>Veille Digitale</span>
+<span>L’importance grandissante de l’UX design dans les projets web</span>
 </a>
 </li>
 </ul>
 <hr style=visibility:hidden>
-</div>
-<div class="col-lg-2 col-lg-offset-0
-visible-lg-block
-sidebar-container
-catalog-container">
-<div class=side-catalog>
-<hr class="hidden-sm hidden-xs">
-<h5>
-<a class=catalog-toggle href=#>CATALOG</a>
-</h5>
-<ul class=catalog-body></ul>
-</div>
 </div>
 <div class="col-lg-8 col-lg-offset-2
 col-md-10 col-md-offset-1
@@ -175,9 +128,7 @@ sidebar-container">
 <hr class="hidden-sm hidden-xs">
 <h5>FEATURED TAGS</h5>
 <div class=tags>
-<a href=/labveiltech2023/tags/documentation/>documentation</a>
 <a href=/labveiltech2023/tags/emoji/>emoji</a>
-<a href=/labveiltech2023/tags/guide/>guide</a>
 </div>
 </section>
 </div>
@@ -203,9 +154,6 @@ Powered by <a href=https://gohugo.io>Hugo</a>
 <script src=/labveiltech2023/js/hux-blog.min.6436294d8572a421d31642d249910e90a99a4c763ccc93d2702846084e55450a.js></script>
 <script src=/labveiltech2023/js/simple-jekyll-search.min.js></script>
 <script src=/labveiltech2023/js/search.min.af6081abd50af721b7dad5a9a76aaad9d6cd0a29302198ae018519ccdd07dee7.js></script>
-<script type=text/javascript>function generateCatalog(a){_containerSelector='div.post-container';var h=$(_containerSelector),c,d,e,f,g,b;return c=h.find('h1,h2,h3,h4'),$(a).html(''),c.each(function(){d=$(this).prop('tagName').toLowerCase(),g="#"+$(this).prop('id'),e=$(this).text(),b=$('<a href="'+g+'" rel="nofollow">'+e+'</a>'),f=$('<li class="'+d+'_nav"></li>').append(b),$(a).append(f)}),!0}generateCatalog(".catalog-body"),$(".catalog-toggle").click(function(a){a.preventDefault(),$('.side-catalog').toggleClass("fold")})</script>
-<script type=text/javascript src=/labveiltech2023/js/jquery.nav.min.bd0fbd5f2749da9d631c3438dac03c1bcee6f275f5f3eec79592e0f512284470.js></script>
-<script>$(document).ready(function(){$('.catalog-body').onePageNav({currentClass:"active",changeHash:!1,easing:"swing",filter:"",scrollSpeed:700,scrollOffset:0,scrollThreshold:.2,begin:null,end:null,scrollChange:null,padding:80})})</script>
 <script src=/labveiltech2023/zoomjs/zoom.min.js></script>
 </body>
 </html>
