@@ -21,7 +21,7 @@ Olivier Sauvage explique que donner une réelle définition du mot UX est devenu
 
 On peut donc voir qu'avec ce changement de paradigme c'est l'utilisateur final qui prend une part beaucoup plus importante dans la conception du produit, il est même devenu le centre des réflexions. Aujourd'hui on réfléchit d'abord à comment fonctionne l'utilisateur et on s'adapte à lui.
 
-Dans le futur les méthodes de l'UX ne devraient pas fondalmentalement changer, ce qui compte en UX c'est l'observation de l'humain. En revanche il pourrait y avoir de nouvelles façons d'observer et de nouveaux moyens digitaux pour y parvenir. Que ce soit la voix comme moyen d'entrée dans une interface ou les IA qui vont probablement forcer à concevoir pour l'individu au lieu de la masse ou encore comment repenser le multicanal et proposer à l'utilisateur une expérience complète du téléphone mobile aux magasins.
+Dans le futur les méthodes de l'UX ne devraient pas fondamentalement changer, ce qui compte en UX c'est l'observation de l'humain. En revanche il pourrait y avoir de nouvelles façons d'observer et de nouveaux moyens digitaux pour y parvenir. Que ce soit la voix comme moyen d'entrée dans une interface ou les IA qui vont probablement forcer à concevoir pour l'individu au lieu de la masse ou encore comment repenser le multicanal et proposer à l'utilisateur une expérience complète du téléphone mobile aux magasins.
 
 L'expert souligne également l'importance de la qualité de l'UX pour le référencement naturel. Les moteurs de recherche prennent en compte la qualité de l'expérience utilisateur pour classer les sites web dans leurs résultats de recherche. Un site web avec une bonne UX aura donc plus de chances d'être bien classé et de générer plus de trafic organique.
 

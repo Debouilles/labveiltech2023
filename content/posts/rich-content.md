@@ -18,7 +18,7 @@ Il est très important pour les personnes qui travaillent dans les domaines digi
 J’ai choisi de suivre plusieurs comptes twitter bien que l’avenir de cette plateforme soit incertain. C’est une source d’information importante pour le domaine que j’ai choisi (UX / UI) et je pense qu’il est important que je regarde ce qui est posté ici.
 
 - Figma : fraîchement racheté par Adobe il est le leader des programmes pour designer des maquettes. Il y a parfois des visioconférences sur des thèmes d’actualités. Les nouvelles fonctionnalités y sont expliquées.
-- UXmatters. Compte qui donne des liens de ressources interréssantes à propos d'UX et de recherches utilisateurs. Alimenté régulièrement à l'aide d'une newsletter.
+- UXmatters. Compte qui donne des liens de ressources intéressantes  à propos d'UX et de recherches utilisateurs. Alimenté régulièrement à l'aide d'une newsletter.
 
 
 <h2>Instagram</h2>
@@ -36,7 +36,7 @@ Instagram est la plateforme que j’utilisais déjà avant pour avoir accès à 
 - https://bloguxdesigner.fr/ 
 Ce blog est un blog assez complet qui parle de l’actualité sur le thème que j’ai choisi mais aussi sur le SEO et le marketing. Des ressources à télécharger ainsi que des conseils pour m’améliorer. Les articles sont courts et donne un bon début de pensée mais ils sont insuffisants à eux seuls.
 - https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux : cours gratuit sur l’UX, je n’ai pas encore eu le temps de le commencer mais je pense que cela va m’apporter quelques connaissances ou du moins les renforcer.
-- https://blog-ux.com : Ce blog regroupe un grand nombre d’articles qui parle de design thinking, de l’UX/UI ainsi que d'ergonomie. Ce blog donne aussi des idées de où trouver de l'information de qualité autour de l'UX et de l'UI.
+- https://blog-ux.com : Ce blog regroupe un grand nombre d’articles qui parle de design thinking, de l’UX/UI ainsi que d'ergonomie. Ce blog donne aussi des idées d'où trouver de l'information de qualité autour de l'UX et de l'UI.
 - https://jai-un-pote-dans-la.com/ Articles qui offrent des conseils, des astuces et des ressources pour aider à mieux comprendre les différents aspects de la communication et du marketing, y compris les stratégies de branding mais aussi parfois sur les domaines de l’UX et de l’UI.
 - Usabilis : site web d'articles et de conseils sur l'UX.
 
@@ -45,14 +45,14 @@ Ce blog est un blog assez complet qui parle de l’actualité sur le thème que 
 - Malewicz : Explications de l’UX et l’UI. Vidéos conseils sur des plugins Figma, des façons de réaliser ou quels outils utiliser. Ils parlent aussi des cours Google et donne son avis. 
 
 
-- Parlons Design. Une chaîne en français qui parle de conception d'interface et de design web dans sa globalité, avec aussi des contenus plus diversifié sur comment ajuster ses prix en tant que freelance par exemple.
+- Parlons Design. Une chaîne en français qui parle de conception d'interface et de design web dans sa globalité, avec aussi des contenus plus diversifiés sur comment ajuster ses prix en tant que freelance par exemple.
 
 - Design Code : Chaîne de tutoriels sur des outils digitaux connus.
 
 <h2>Podcasts</h2>
 
 - The Best UX and User Research Podcasts to listen to in 2022 (Playlist publique). Cette playlist de podcasts regroupe les meilleurs podcasts qui sont sortis en 2022 sur le domaine que j'ai choisi. Il y a régulièrement des podcasts contenant des interviews des acteurs du domaine et c'est un bon moyen d'avoir accès à beaucoup d'informations lors de mes déplacements, sans pour autant avoir des thèmes très précis.
-- Design Better Podcast. Parle de conception d'interface avec à chaque podcast une interview d'un personne qui travaille pour une enteprise active dans le monde du digital.
+- Design Better Podcast. Parle de conception d'interface avec à chaque podcast une interview d'une personne qui travaille pour une entreprise active dans le monde du digital.
 
 
 ---
