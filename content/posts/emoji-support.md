@@ -22,7 +22,7 @@ Il est difficile pour le moment d'envisager si ce rachat est une bonne nouvelle 
 
 
 
-Lien des articles : 
+Lien des articles sources : 
 - https://www.usabilis.com/annonce-rachat-de-figma-adobe/
 - https://www.blogdumoderateur.com/adobe-rachete-figma/
 - https://www.figma.com/fr/blog/a-new-collaboration-with-adobe/

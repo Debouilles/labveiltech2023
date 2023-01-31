@@ -22,4 +22,4 @@ L'article rappelle également à quel point il est important que l'enfant ne pas
 
 Il est donc très important dans le cadre de mon TB de concevoir une interface qui permette aux enfants de faire des activités en extérieur et de lever le nez des écrans afin qu'ils se développent dans de bonnes conditions. Cet article me donne quelques pistes pour mon TB mais ce n'est qu'un début. 
 
-Lien de l'article : https://newflux.fr/2016/01/04/design-ux-les-enfants/
+Lien de l'article source : https://newflux.fr/2016/01/04/design-ux-les-enfants/

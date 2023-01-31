@@ -19,5 +19,5 @@ Cet article donne également des exemples concrets pour pouvoir créer de façon
 
 À l'heure où la thématique de lécologie est super importante et prend de plus en plus d'ampleur, le digital est pointé du doigt et surtout le streaming. Je pense qu'il est très important de penser à des solutions pour réduire cette consommation de données et ainsi concevoir des interfaces qui soient durables. Je pense que cet article est interressant puisqu'il montre comment la durabilité peut être intégrée de manière efficace dans le développement d'interface, tout en prenant en compte les aspects techniques et commerciaux qui sont la base du domaine que j'ai choisi. Cela peut aider les ingénieurs d'aujourd'hui à créer des produits respectueux de l'environnement tout en offrant une expérience utilisateur optimale et en améliorant la qualité du produit mais il permet aussi de sensibiliser à cette thématique qui n'est pas assez prise en compte dans ce domaine.
 
-Lien de l'article : https://jai-un-pote-dans-la.com/ux-et-eco-conception-joindre-lefficace-au-durable/
+Lien de l'article source : https://jai-un-pote-dans-la.com/ux-et-eco-conception-joindre-lefficace-au-durable/
 

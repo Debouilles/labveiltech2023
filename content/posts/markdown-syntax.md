@@ -32,3 +32,5 @@ Normalement dans les années à venir l'UX deviendra un des rouages essentiels p
 >[...] Je crois que les UX designers prendront de plus en plus d’importance dans les décisions stratégiques des entreprises.
 
 En conclusion, l'UX est un élément clé pour le succès des projets web. Les entreprises doivent se concentrer sur la qualité de l'expérience utilisateur pour garantir le succès de leur site web, en termes de trafic, de conversion et de satisfaction des utilisateurs. Nous ne pouvons prédire l'avenir mais il est à peu près certain que les métiers autour de l'UX continueront de prendre de l'ampleur ces prochaines années et seront aux coeur des décisions concernant les utilisateurs et la conception de produits qui leur sont destinés.
+
+Lien de l'article source : https://www.blogdumoderateur.com/interview-importance-ux-design-projets-web/
