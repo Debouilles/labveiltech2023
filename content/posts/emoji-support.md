@@ -1,47 +1,28 @@
-+++
-author = "Hugo Authors"
-title = "Emoji Support"
-date = "2019-03-05"
-description = "Guide to emoji usage in Hugo"
-tags = [
-    "emoji",
-]
-+++
+---
+author: Déborah Antonietti
+title: Rachat du logiciel Figma
+date: 2023-01-31
+description: Qu'en est-il du futur du logiciel Figma ?
+---
 
-Emoji can be enabled in a Hugo project in a number of ways. 
-<!--more-->
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
+<img src="https://www.usabilis.com/wp-content/uploads/2022/09/Adobe-rachete-Figma.jpg">
 
-To enable emoji globally, set `enableEmoji` to `true` in your site's [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
+Annoncé en septembre 2022, le rachat du logiciel Figma par la société doyenne du digital : Adobe a fait beaucoup de bruit. Mais quel sera l'avenir du logiciel de la startup qui avait une vision plus innovante que Adobe qui elle est plus "industrialisée" ? 
+Rachetée pour 20 milliards de dollars, est-ce que l'absence de concurrence pour Adobe est une bonne nouvelle pour les utilisateurs ? 
 
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
+Dylan Field, co-fondateur et PDG de Figma se veut rassurant et affirme :
+>“Nous prévoyons de continuer à gérer Figma comme nous l’avons toujours fait – en continuant à faire ce que nous pensons être le mieux pour notre communauté, notre culture et notre entreprise. [...] Adobe est engagé à maintenir Figma en fonctionnement autonome.”
+
+De plus Dylan Field pense que l'alliance avec Adobe permettra d'accélérer la croissance et l'innovation de la plateforme en utilisant les technologies, l'expertise et les ressources d'Adobe dans l'espace créatif. Il ajoute qu'il restera CEO et continuera de diriger l'équipe de Figma. Il ajoute également que le programme "Friends of Figma", l'offre éducative gratuite et le prix de Figma resteront inchangés et continueront d'être disponible.
+
+Adobe propose son propore logiciel de conception qui concurrence Figma : Adobe XD. Tous deux possèdent des forces complémentaires. Par exemple Figma est très avancé sur les fonctions liées à la conception des design system, tandis que Adobe XD bénéficie de l'intégration des autres outils de la suite Adobe. Les deux logiciels s'adressent au même public cible et il est donc très compliqué d'imaginer une cohabitation de ces deux outils. 
 
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+Il est difficile pour le moment d'envisager si ce rachat est une bonne nouvelle pour les utilisateurs ou non. Nous verrons dans quelques années quel avenir Adobe réserve à cet outil et quel sera l'outil que j'utiliserai en tant que conceptrice d'interface.
 
-***
 
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
 
-{{< highlight html >}}
-.emoji {
-  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-{{< /highlight >}}
-
-{{< css.inline >}}
-<style>
-.emojify {
-	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-	font-size: 2rem;
-	vertical-align: middle;
-}
-@media screen and (max-width:650px) {
-  .nowrap {
-    display: block;
-    margin: 25px 0;
-  }
-}
-</style>
-{{< /css.inline >}}
+Lien des articles : 
+- https://www.usabilis.com/annonce-rachat-de-figma-adobe/
+- https://www.blogdumoderateur.com/adobe-rachete-figma/
+- https://www.figma.com/fr/blog/a-new-collaboration-with-adobe/

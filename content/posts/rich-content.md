@@ -38,6 +38,7 @@ Ce blog est un blog assez complet qui parle de l’actualité sur le thème que 
 - https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux : cours gratuit sur l’UX, je n’ai pas encore eu le temps de le commencer mais je pense que cela va m’apporter quelques connaissances ou du moins les renforcer.
 - https://blog-ux.com : Ce blog regroupe un grand nombre d’articles qui parle de design thinking, de l’UX/UI ainsi que d'ergonomie. Ce blog donne aussi des idées de où trouver de l'information de qualité autour de l'UX et de l'UI.
 - https://jai-un-pote-dans-la.com/ Articles qui offrent des conseils, des astuces et des ressources pour aider à mieux comprendre les différents aspects de la communication et du marketing, y compris les stratégies de branding mais aussi parfois sur les domaines de l’UX et de l’UI.
+- Usabilis : site web d'articles et de conseils sur l'UX.
 
 <h2>YouTube</h2>
 
